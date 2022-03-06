@@ -5,7 +5,7 @@ def gpt3(stext):
     openai.api_key = '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'
     response = openai.Completion.create(
         engine = 'text-davinci-001',
-        prompt = 'Suggest better headlines for the news:'+stext,
+        prompt = 'Fix the Grammer:'+stext,
         temperature = 0.76,
         max_tokens = 1000,
         top_p = 1,
