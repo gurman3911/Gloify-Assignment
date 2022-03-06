@@ -6,10 +6,10 @@ st.title("Headlines Generator")
 
 st.warning('this is made for assignment provided by the Pragmatic Leaders for the intership only')
 
-st.write('The program is made to generate better news headlines when an input of keywords or a series a sentence is given to the A.I model')
+st.write('This A.I. program is made to generate Text output with right grammer and punctuations when a input is provided by the user')
 st.caption('The Davinci-001 api is used to complete or generate the set of text as per input')
 
-content = st.text_input("enter the heading for the paragraph")
+content = st.text_input("Sentense you want to fix")
 result = gpt3(content)
 
 if st.button('show results'):
